@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Multimode Digital Voice Guide</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Multimode Digital Voice Guide</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#digital-modes-summary"
+id="toc-digital-modes-summary"><span style="color: blue">Digital Modes
+Summary</span></a></li>
+<li><a href="#kr4chs-standard-reflector-linking"
+id="toc-kr4chs-standard-reflector-linking"><span
+style="color: blue">KR4CHS Standard Reflector Linking</span></a></li>
+<li><a href="#modules-enabled" id="toc-modules-enabled"><span
+style="color: blue">Modules Enabled</span></a></li>
+<li><a href="#transcoding-modes-access---xrf517a"
+id="toc-transcoding-modes-access---xrf517a"><span
+style="color: blue">Transcoding Modes Access - XRF517A*</span></a></li>
+<li><a href="#digital-radio-connection-with-module-a"
+id="toc-digital-radio-connection-with-module-a"><span
+style="color: blue">Digital radio connection with Module
+A</span></a></li>
+<li><a href="#module-connection-table"
+id="toc-module-connection-table"><span style="color: blue">Module
+Connection Table</span></a></li>
+<li><a href="#kr4chs-d-star-repeater-operating-modes"
+id="toc-kr4chs-d-star-repeater-operating-modes"><span
+style="color: blue">KR4CHS D-STAR repeater operating
+modes</span></a></li>
+<li><a href="#reflector-linking-options"
+id="toc-reflector-linking-options"><span style="color: blue">Reflector
+linking options</span></a></li>
+<li><a href="#reflector-linking-unlinking-protocol"
+id="toc-reflector-linking-unlinking-protocol"><span
+style="color: blue">Reflector Linking / Unlinking
+Protocol</span></a></li>
+<li><a href="#selected-d-star-nets" id="toc-selected-d-star-nets"><span
+style="color: blue">Selected D-STAR Nets</span></a></li>
+<li><a href="#multimode-digital-voice-nets"
+id="toc-multimode-digital-voice-nets"><span
+style="color: blue">Multimode Digital Voice Nets</span></a></li>
+<li><a href="#building-your-own-raspberry-pi-based-hotspot"
+id="toc-building-your-own-raspberry-pi-based-hotspot"><span
+style="color: blue">Building your own Raspberry Pi-based
+Hotspot</span></a></li>
+<li><a href="#helpful-digital-voice-links"
+id="toc-helpful-digital-voice-links"><span style="color: blue">Helpful
+Digital Voice links</span></a></li>
+</ul>
+</nav>
+<body style="background-color:powderblue;">
+<style>
+body {
+      margin: 0 auto;
+      max-width: 100em;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+</style>
+<h2 id="digital-modes-summary"><span style="color: blue">Digital Modes
+Summary</span></h2>
+<p>With the significant upgrade of a Raspberry Pi<a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
+(RPi) running IcomGateway,<a href="#fn2" class="footnote-ref"
+id="fnref2" role="doc-noteref"><sup>2</sup></a> and the connection of
+KR4CHS to a transcoding<a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a> reflector, KR4CHS is transformed
+into a Multimode Digital Voice system.</p>
+<p>The following Digital modes are currently supported.</p>
+<ol type="1">
+<li>D-STAR<a href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a> - Direct to Repeater and via
+hotspot</li>
+<li>DMR<a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a> - via hotspot</li>
+<li>YSF<a href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a> via hotspot</li>
+<li>M17<a href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a> via <a
+href="https://github.com/n7tae/mvoice"><strong>mvoice</strong></a> on
+Linux or hotspot</li>
+</ol>
+<p>Operators of these devices can have QSOs, not limited by mode
+type.</p>
+<h2 id="kr4chs-standard-reflector-linking"><span
+style="color: blue">KR4CHS Standard Reflector Linking</span></h2>
+<p>KR4CHS is linked to Reflector<a href="#fn8" class="footnote-ref"
+id="fnref8" role="doc-noteref"><sup>8</sup></a> XRF517 Module A as the
+repeater's standard reflector and module.</p>
+<h2 id="modules-enabled"><span style="color: blue">Modules
+Enabled</span></h2>
+<ol type="1">
+<li>(A) Transcoding for D-STAR, DMR, YSF, and M17</li>
+<li>(B) DMR and YSF</li>
+<li>(C) M17</li>
+<li>(D) D-STAR</li>
+<li>(E) Development</li>
+</ol>
+<h2 id="transcoding-modes-access---xrf517a"><span
+style="color: blue">Transcoding Modes Access - XRF517A*</span></h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Mode</th>
+<th style="text-align: left;">Access</th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">D-STAR</td>
+<td style="text-align: left;">KR4CHS, Awendaw, SC 145.210 -0.600
+MHz</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">D-STAR</td>
+<td style="text-align: left;">XRF517A</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">DMR</td>
+<td style="text-align: left;">QuadNet 517</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DMR</td>
+<td style="text-align: left;">XLX_517 Module A (4001)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">DMR</td>
+<td style="text-align: left;">TGIF 517</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">YSF</td>
+<td style="text-align: left;">YSF51700 - US-URF517 - RadioSC</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">YSF</td>
+<td style="text-align: left;">YCS310 DG-ID 81</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">YSF</td>
+<td style="text-align: left;">FCS31081</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M17</td>
+<td style="text-align: left;">URF517A</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>*For more detailed help see the next section.</p>
+<h2 id="digital-radio-connection-with-module-a"><span
+style="color: blue">Digital radio connection with Module A</span></h2>
+<p>Module A of the reflector is the module which will allow QSOs between
+D-STAR, DMR, YSF, and M17 operators.</p>
+<h3 id="d-star-direct-to-repeater">D-STAR direct to Repeater</h3>
+<p>Set your D-STAR radio as follows (uses KF5CJG as an example)</p>
+<p>UR: CQCQCQ Use Repeater (this doesn't say Reflector but it's
+Ok)<br />
+R1: KR4CHS C Charleston<br />
+R2: KR4CHS G Charleston G<br />
+My: KF5CJG /5100</p>
+<p>R2 should always be set to "G," Gateway,<a href="#fn9"
+class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> to
+avoid QSO confusion and doubling with Hotspot operators and non-KR4CHS
+repeater operators. Though you will hear those other operators, they
+will only hear you if you are on the Gateway.</p>
+<h3 id="d-star-via-a-hotspot12">D-STAR via a hotspot<a href="#fn10"
+class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a></h3>
+<p>Using KF5CJG's hotspot as an example first link to XRF517A:</p>
+<p>UR: XRF517AL<br />
+R1: KF5CJG B<br />
+R2: KF5CJG G<br />
+My: KF5CJG /5100</p>
+<p>After setting your radio as above, PTT. Your hotspot should report
+that you are linked to XRF517A. Linking to DCS517A also works.</p>
+<p>Next, change UR from XRF517AL to "Use Reflector." After selecting
+"Use Reflector," the "CS" screen on your D-STAR radio will display the
+following:</p>
+<p>UR: CQCQCQ       Use Repeater<br />
+R1: &lt;YourCallSign&gt; B<br />
+R2: &lt;YourCallSign&gt; G<br />
+My: &lt;YourCallSign&gt; /&lt;YourText&gt;</p>
+<h3 id="dmr-via-xlx-master">DMR via XLX Master</h3>
+<p>In your Pi-Star set the DMR Master to: “DMR Gateway” then ensure XLX
+is enabled. For WPSD hotspots make sure XLX Master Enable is on.</p>
+<p>Select XLX_517 from the drop-down box, then select module A. If the
+above selection does not show in the drop-down menu, run the Update on
+Pi-Star found in the admin menu.</p>
+<p>For your radio, add a channel with Talkgroup<a href="#fn11"
+class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> 6
+(Group Call) into a zone<a href="#fn12" class="footnote-ref"
+id="fnref12" role="doc-noteref"><sup>12</sup></a> of your choosing. A
+zone named RadioSC is a good choice.</p>
+<p>Once XLX_517 Module A is set in your hotspot, select the Talkgroup 6
+channel on your radio and you should be set for your first QSO on the
+Reflector.</p>
+<h3 id="dmr-via-quadnet-talkgroup-tg-517">DMR via QuadNet Talkgroup (TG)
+517</h3>
+<p>In the latest version of WPSD, the DMR master is user-selectable.
+Prior to this WPSD set the the DMR master to Brandmeister so that all
+other Networks required a TG prefix. Now, since WPSD allows the
+selection of the DMR master, the user can choose the DMR Network that
+does not require a TG prefix.<br />
+<img
+src="C:\Users\nick\SynologyDrive\Atom/radiosc-info\images\Primary-DMR-Network.png"
+alt="QuadNet as Primary Network" /></p>
+<p>If using WPSD an "8" prefix is required for the TG create a Talkgroup
+so on your DMR radio create an 8000517 TG. A total of seven digits is
+required so fill between "8" and "517" with three zeros. Create a
+channel for your new TG and add the channel to a zone.</p>
+<p>Go to WPSD Configuration, scroll down the "DMR+/FreeDMR/HBlink/Custom
+Network Settings" and select "HB_US_Quadnet_1_GA" as this is the
+geographically closet server.</p>
+<p>If you want TG 517 to be static (reccommended) then enter the
+following in Options:</p>
+<p>"TS2=517;TIMER=10;VOICE=0,DIAL=0" (no quotes)</p>
+<p>In order to add more static TGs separate them with commas (e.g.
+TS2=517,320,321).</p>
+<p>In order to view activity go to the menu of all <a
+href="https://quadnet.ddns.net/"><strong>QuadNet Rysen
+servers</strong></a> and click on the dashboard picture of the Atlanta
+server dashboard which will then display the Atlanta Rysen server.</p>
+<h3 id="dmr-via-tgif-tg-517">DMR via TGIF TG 517</h3>
+<p>Enable TGIF DMR for WPSD or Pi-Star. A user account and security key
+from TGIF is required. Depending upon the configuration in your hotspot
+software, a TG prefix may be required.</p>
+<h3 id="yaesu-system-fusion-ysf">Yaesu System Fusion (YSF)</h3>
+<p>In your YSF PI-star set the YSF startup host to:</p>
+<p>“YSF51700 - US-URF517 - RadioSC”</p>
+<p>For your radio simply set the VFO to the frequency of the Pi-Star or
+WPSD hotspot and the mode to DN. Or create a memory channel with the
+hotspot frequency and DN mode.</p>
+<h3 id="quadnet-ysf-access-to-xlx517a">QuadNet YSF access to
+XLX517A</h3>
+<p>There are two QuadNet connections to the XLX517 transcoding module
+A:</p>
+<ul>
+<li><p>YCS310 DG-ID 81 <a href="https://ycs.openquad.net/">YC310
+Dashboard</a></p></li>
+<li><p>FCS31081 <a href="https://dmr.openquad.net/#">FCS
+Dashboard</a></p></li>
+</ul>
+<h3 id="m17">M17</h3>
+<p>Install mvoice on a Ubuntu 24.04 or Debian 12 computer or connect via
+a hotspot and a Connect Systems M17 radio.</p>
+<p>Operators who desire to use M17, which we encourage, should contact
+the RadioSC team for assistance.</p>
+<h2 id="module-connection-table"><span style="color: blue">Module
+Connection Table</span></h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 17%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Module</th>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">D-STAR DExtra</th>
+<th style="text-align: center;">DMR TG 6</th>
+<th style="text-align: left;">YSF</th>
+<th style="text-align: left;">YSF DG-ID</th>
+<th style="text-align: left;">M17</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">Transcoding</td>
+<td style="text-align: left;">XRF517AL</td>
+<td style="text-align: center;">64001</td>
+<td style="text-align: left;">#51700</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">URF517A</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">DMR, YSF</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: center;">64002</td>
+<td style="text-align: left;">#51700</td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">C</td>
+<td style="text-align: left;">M17</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">URF517C</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">D</td>
+<td style="text-align: left;">D-STAR</td>
+<td style="text-align: left;">XRF517DL</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="kr4chs-d-star-repeater-operating-modes"><span
+style="color: blue">KR4CHS D-STAR repeater operating modes</span></h2>
+<ol type="1">
+<li>Repeater is not connected to a Reflector - supports D-STAR local
+operators</li>
+<li>Repeater is connected to a Reflector - supports D-STAR local users
+and Internet-based operators</li>
+</ol>
+<h3 id="mode-1">Mode 1</h3>
+<p>All operators within RF range of the repeater can make local calls on
+the repeater and connect to Reflectors for making calls. In other words,
+all normal D-STAR capability is available to the operator within RF
+range of the repeater.</p>
+<h3 id="mode-2">Mode 2</h3>
+<p>To Mode 1 add all hotspot (and dongle, etc.) operators (those local
+and worldwide). Hotspot operators can connect to the Reflector that the
+Repeater is linked to and have QSO's with all Reflector-connected
+operators and local operators (Note: The best operating practice for
+Mode 1 operators is to always have R2 set to Gateway. Otherwise if a QSO
+is in progress on the Reflector the local operator on KR4CHS will hear
+the reflector via the repeater but Gateway operaters will not hear the
+local operator which among other things could cause doubling and could
+cause Reflector users to "step on" a local QSO.)</p>
+<h2 id="reflector-linking-options"><span style="color: blue">Reflector
+linking options</span></h2>
+<p>KR4CHS is capable of linking to virtually all reflector types except
+M17 reflectors (mrefd) as M17 only reflectors (mref) are designed for
+M17 only. However, universal reflectors, like URF517, includes M17
+capability and we have reserved Module C for M17 to M17 QSOs.</p>
+<p>The first four reflectors shown below are DPlus reflectors. These
+reflectors are for D-STAR QSOs only. These are shown for completeness
+but are not preferred as the new capabilities of KR4CHS, namely its
+multimode capability are not possible with DPLus reflectors.</p>
+<ol type="1">
+<li>REF001C - The D-STAR Mega Reflector - Lots of activity worldwide on
+D-STAR only - no transcoding between modes.</li>
+<li>REF030C - Wide Area linked repeaters - similar to REF001C in
+activity. D-STAR only.</li>
+<li>REF054C - Carolinas Repeaters, based out of Charlotte. D-STAR
+only.</li>
+<li>XRF757A - QuadNet Transcoding Reflector for D-STAR, DMR, YSF, and
+M17.</li>
+<li>Any other Reflector using the REF or XRF protocol for ad-hoc or
+scheduled purposes. Connection via the XLX protocol is not
+supported.</li>
+</ol>
+<h2 id="reflector-linking-unlinking-protocol"><span
+style="color: blue">Reflector Linking / Unlinking Protocol</span></h2>
+<p>Note: Linking and Unlinking the D-STAR Awendaw Repeater can only be
+accomplished with a D-STAR radio.</p>
+<p>If an operator wants to link to a Reflector other than XRF517A, first
+listen to determine if the Repeater is currently in use. If not in use,
+announce your intention to link to your desired Reflector. Then unlink
+the Repeater. After unlinking, link to your desired reflector. Complete
+your QSO, then unlink and link back to XRF517A, returning the repeater
+to its normal state.</p>
+<h2 id="selected-d-star-nets"><span style="color: blue">Selected D-STAR
+Nets</span></h2>
+<h3 id="north-carolina-friends-of-d-star-net">North Carolina &amp;
+Friends of D-STAR Net</h3>
+<p>Tuesday 9:00pm on REF054C.</p>
+<h3 id="coastal-carolina-d-star-net">Coastal Carolina D-STAR Net</h3>
+<p>Saturday at 7:30pm on REF054C.</p>
+<h3 id="raspberry-pi-net">Raspberry Pi Net</h3>
+<p>Monday at 11:00pm on REF038C.</p>
+<h3 id="d-star-tech-net">D-STAR Tech Net</h3>
+<p>Tuesday @ 11:00pm on REF012A.</p>
+<p>More <a
+href="https://papasys.com/events/dstar-tech-net/"><strong>Papa System
+info</strong></a></p>
+<h2 id="multimode-digital-voice-nets"><span
+style="color: blue">Multimode Digital Voice Nets</span></h2>
+<h3 id="digital-dog-net">Digital Dog Net</h3>
+<p>Every Monday starting at 5pm EDT on RadioSC.</p>
+<p>Logging on <a
+href="https://ham.live"><strong>Ham.live</strong></a></p>
+<h3 id="radiosc-multimode-net">RadioSC Multimode Net</h3>
+<p>First Monday of each month at 7pm EDT on RadioSC wtih early check-in
+beginning at 6:45pm.</p>
+<p>Logging on <a
+href="https://ham.live"><strong>Ham.live</strong></a></p>
+<h3 id="quadnet-multimode-digital-voice-net">QuadNet Multimode Digital
+Voice Net</h3>
+<p>Saturday @ 6:00pm EST on Reflector XRF757A.</p>
+<p>D-STAR XRF757A.</p>
+<p>QuadNet Talkgroup 320.</p>
+<p>TGIF Talkgroup 320.</p>
+<p>YSF31001.</p>
+<p>M17 URF587A.</p>
+<h3 id="other-nets-on-quadnet">Other Nets on QuadNet</h3>
+<p>Visit <a href="https://openquad.net/"><strong>QuadNet</strong></a> to
+the QuadNet Net schedule.</p>
+<h2 id="building-your-own-raspberry-pi-based-hotspot"><span
+style="color: blue">Building your own Raspberry Pi-based
+Hotspot</span></h2>
+<p>A Raspberry Pi (RPi) is a single board computer that when paired with
+a MMDVM (Multimode Digital Voice Modem) and loaded with free open source
+software contained on a Micro SD card and connected to the Internet
+becomes your very own little repeater that gives the operator access to
+multiple digital modes (D-STAR, DMR, Yaesu System Fusion, M17, and
+others) and their associated Reflectors, Talkgroups, and Rooms<a
+href="#fn13" class="footnote-ref" id="fnref13"
+role="doc-noteref"><sup>13</sup></a>.</p>
+<p>There are at least two operating system options that will run a
+hotspot, <a href="https://www.pistar.uk/"><strong>Pi-Star</strong></a>
+and <a href="https://w0chp.radio/"><strong>WPSD</strong></a>. As
+mentioned one of these OS images must be loaded onto a Micro SD card
+that will be inserted into the Raspberry Pi.</p>
+<h3 id="purchase-all-necessary-hardware">Purchase all necessary
+hardware:</h3>
+<p>Several different Raspberry Pi Board models will run a Hotspot. The
+least expensive recommended Pi board is the Pi Zero 2 W so that's the
+one shown below.</p>
+<ol type="1">
+<li><a
+href="https://www.pishop.us/product/raspberry-pi-zero-2-w-with-pre-soldered-headers/"><strong>Raspberry
+Pi Zero 2 W board with header attached</strong></a> from PiShop.us or
+other. If you don't have a power supply you'll want that also and a heat
+sink. Use the options on the PiShop.us page for selecting the power
+supply and heatsink if desired.</li>
+<li>MMDVM Hat and case. Amazon is a good source for the HAT (Hardware
+Attached on Top). Here are 2 options:
+<ol type="1">
+<li><a
+href="https://www.amazon.com/gp/product/B0C3J64TVD/ref=ewc_pr_img_1?smid=A111RPS%20MN20VWK&amp;psc=1"><strong>Upgraded
+MMDVM Hotspot HAT Board</strong></a> (includes an 8 MB Micro SD card
+with Pi-Star ver 4.2.X pre-loaded. You'll need to reflash to WPSD. The
+photo on the Amazon page shows the Micro SD card to be a Class 10)</li>
+<li><a
+href="https://www.amazon.com/gp/product/B07Z8YP5VJ/ref=ewc_pr_img_2?smid=A3KC9Z86+M9XWS3"><strong>AUSINC
+MMDVM with enclosure</strong></a> (Micro SD card not included)</li>
+</ol></li>
+<li>Micro SD card if your MMDVM does not come with one. A high quality
+Class 10 Micro SD card is preferred, like the <a
+href="https://www.amazon.com/SanDisk-Ultra-UHS-I-Memory-Adapter/dp/B00M55C0NS/ref=sr_1_18?s=pc&amp;sr=1-18"><strong>SanDisk
+Ultra</strong></a>.</li>
+<li>For powering the hotspot for mobile or portable operation a vehicle
+USB port or power bank (e.g. RAVPOWER) with USB port.</li>
+</ol>
+<h3 id="download-required-software-and-setup">Download required software
+and setup:</h3>
+<p>Download <a
+href="https://www.pistar.uk/downloads/"><strong>Pi-Star</strong></a> and
+follow their instructions for installing and configuring the
+software.</p>
+<p>If using WPSD, follow the <a
+href="https://w0chp.radio/wpsd/"><strong>WPSD
+Instructions.</strong></a></p>
+<h3 id="write-the-downloaded-sw-to-the-microsd-card">Write the
+downloaded s/w to the MicroSD card</h3>
+<p>Download <a href="https://etcher.balena.io/"><strong>Balena
+Etcher</strong></a><a href="#fn14" class="footnote-ref" id="fnref14"
+role="doc-noteref"><sup>14</sup></a> to write the s/w to the SD
+card.</p>
+<p>On the Pi-Star website choose Pi-Star tools menu then the wifi
+builder to enter your SSID and password.</p>
+<p>Follow the instructions on the site to continue the install.</p>
+<p>After the intitial install and reboot, run the Update from the Admin
+menu.</p>
+<p>Have fun!</p>
+<h2 id="helpful-digital-voice-links"><span style="color: blue">Helpful
+Digital Voice links</span></h2>
+<ul>
+<li><p><a href="https://w0chp.radio/digital-radio-lists/"><strong>W0CHP
+Digital Ham Radio Lists</strong></a> Chip, W0CHP, updates his searchable
+lists hourly. Very useful.</p></li>
+<li><p><a href="https://dmrup.org/"><strong>DMR Unification
+Project</strong></a> A good read for understanding DMR and DMR network
+options, particularly the video shown on the main page of the
+website.</p></li>
+<li><p><a href="https://dstarusers.org/repeaters.php"><strong>D-STAR
+Repeater List</strong></a></p></li>
+<li><p><a href="https://dstarusers.org/lastheard.php"><strong>D-STAR
+Lastheard</strong></a> - useful for checking if you or others are
+actually on the D-STAR system</p></li>
+<li><p><a href="https://tinyurl.com/bd5nak9v"><strong>The Simple Guide
+to using D-STAR Radio</strong></a></p></li>
+<li><p><a
+href="http://dmr-marc.net/media/Amateur_Radio_Guide_to_DMR_Rev_I_20150510.pdf"><strong>Amateur
+Radio Guide to Digital Mobile Radio</strong></a></p></li>
+</ul>
+<pre></pre>
+<p><a href="http://xlx517.radiosc.net/index.php">back to
+Dashboard</a></p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>A Raspberry Pi (RPi) is a small computer that can be
+configured for multiple uses including as a desktop computer. For
+KR4CHS, the RPi is used to run the IcomGateway software by Thomas Early,
+N7TAE.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Gateway in this context refers to the D-STAR Gateway
+which connects operators through the Internet.<a href="#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Transcoding involves converting digital transmissions
+from one mode to others (e.g. D-STAR to DMR and YSF). So transcoding
+allows QSOs for operators using different modes.<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>D-STAR - Digital Smart Technologies for Amateur Radio.
+Per <a
+href="https://www.icomjapan.com/explore/d-star/"><strong>Icom</strong></a>,
+D-STAR is an open protocol for digital communications established by the
+Japen Amateure Radio League (JARL). For more on D-STAR see <a
+href="https://amateurradionotes.com/d-star.htm"><strong>Diving into
+D-STAR</strong></a>.<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>DMR - Digital Mobile Radio. Per the Motorola Solutions
+website, DMR is an international standard for two-way radios. The
+standard was created and is maintained by the European
+Telecommunications Standards Institute (ETSI). DMR is characterized by
+the use of two Time Slots which allows for two QSOs to occur on a
+frequency. For more on DMR see <a
+href="https://amateurradionotes.com/dmr.htm"><strong>Discovering
+DMR</strong></a> and the <a
+href="https://www.dmrassociation.org/"><strong>DMR
+Association</strong></a>.<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>YSF or Yaesu System Fusion. YSF is Yaesu's digital
+communications product for voice and data. For more information read
+Yaesu's <a
+href="https://yaesu.com/pdf/System_Fusion_text.pdf"><strong>Invitation
+to the Future</strong></a>.<a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>M17 is an Open Source digital voice mode. For more
+information see the <a href="https://m17project.org/"><strong>M17
+Project</strong></a>.<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Reflectors are a type of network server, and you can
+think of their modules as chat rooms.<a href="#fnref8"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>The IcomGateway provides access to multiple reflector
+types.<a href="#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>An Amateur Radio Hotspot functions as a "private
+repeater" for the operator that provides access to Talkgroups,
+Reflectors, Chat Rooms, etc.<a href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Talk Groups are a way for groups of users to share a
+time slot (one-to-many) without distracting and disrupting other users
+of the time slot. It should be noted that only one Talk Group can be
+using a time slot at a time. If your radio is not programmed to listen
+to a Talk Group, you will not hear that group’s traffic. There are over
+16-million TGs available in DMR, most use only a very few (Amateur Radio
+Guide to Digital Mobile Radio, 2nd Edition).<a href="#fnref11"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>A DMR Zone is a group of one or more channels. A
+channel must be in a zone in order for it to be used.<a href="#fnref12"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>A YSF Room is similar to a D-STAR Reflector and module
+and allows QSOs between YSF operators in the same room.<a
+href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Balena Etcher is a software utility that flashes
+(copies) Operating System images to SD cards and USB drive.<a
+href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
