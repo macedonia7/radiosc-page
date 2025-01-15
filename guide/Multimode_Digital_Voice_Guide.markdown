@@ -47,17 +47,7 @@ KR4CHS is linked to Reflector[^8] XRF517 Module A as the repeater's standard ref
 
 ## <span style="color: blue">Transcoding Modes Access - XRF517A\*</span>
 
-| Mode | Access |
-| :---| :--- | :--- |
-|D-STAR  | KR4CHS, Awendaw, SC 145.210 -0.600 MHz |  
-|D-STAR    | XRF517A |  
-|DMR  |   QuadNet 517 | 
-|DMR  |   XLX_517 Module A (4001) | 
-|DMR  |   TGIF 517 ||
-|YSF  |   YSF51700 - US-URF517 - RadioSC |
-|YSF  |   YCS310 DG-ID 81 |
-|YSF  |   FCS31081 |
-|M17  |   URF517A |
+See [RadioSC Transcoding Modes Access](http://urf517.radiosc.net/guide/URF517-Transcoding-Module-A-access.html) for a list of connections.
 
 \*For more detailed help see the next section.
 
@@ -151,12 +141,12 @@ Operators who desire to use M17, which we encourage, should contact the RadioSC 
 
 ## <span style="color: blue">Module Connection Table</span>
 
-| Module | Name       | D-STAR DExtra  | DMR TG 6      | YSF    | YSF DG-ID | M17      |
-| :---| :--- | :---                 | :---:        | :---   | :---       | :---    |
-|A    | Transcoding | XRF517AL      | 64001     | #51700    | 10      | URF517A |
-|B    | DMR, YSF | -                 | 64002    | #51700    | 11      | -       |
-|C    | M17         | -              | -           | -         | -       | URF517C |
-|D    | D-STAR      | XRF517DL       | -           | -         | -       | -       |
+| Module | Name       | D-STAR DExtra  | DMR TG 6      | YSF51700 Wires-X   | M17      |
+| :---| :--- | :---                 | :---:        | :---   | :---    |
+|A    | Transcoding | XRF517AL      | 64001     | #00001   | URF517A |
+|B    | DMR, YSF | -                 | 64002    | #00002    | -       |
+|C    | M17         | -              | -           | -         | URF517C |
+|D    | D-STAR      | XRF517DL       | -           | -         | -       |
 
 ## <span style="color: blue">KR4CHS D-STAR repeater operating modes</span>
 
